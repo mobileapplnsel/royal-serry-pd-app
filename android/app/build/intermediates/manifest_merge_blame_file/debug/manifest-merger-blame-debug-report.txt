@@ -1,0 +1,568 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.royalserry"
+4    android:versionCode="4194315"
+5    android:versionName="0.7.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:5:5-67
+11-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:6:3-63
+12-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:6:20-61
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:7:1-61
+13-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:7:18-58
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:8:1-56
+15-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:8:15-53
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:9:1-65
+16-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:9:15-63
+17
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:10:2-77
+18-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:10:19-75
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:11:2-77
+19-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:11:19-74
+20    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+20-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:12:3-75
+20-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:12:20-73
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:13:1-75
+21-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:13:18-72
+22    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+22-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:14:1-77
+22-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:14:18-74
+23    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+23-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:15:4-87
+23-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:15:21-84
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->[com.facebook.flipper:flipper:0.33.1] C:\Users\ks pc\.gradle\caches\transforms-3\7574d073186ac33eda1e44c3cf6d150a\transformed\jetified-flipper-0.33.1\AndroidManifest.xml:16:5-76
+24-->[com.facebook.flipper:flipper:0.33.1] C:\Users\ks pc\.gradle\caches\transforms-3\7574d073186ac33eda1e44c3cf6d150a\transformed\jetified-flipper-0.33.1\AndroidManifest.xml:16:22-73
+25
+26    <uses-feature
+26-->[:react-native-scan-barcode] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\react-native-scan-barcode\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-18:36
+27        android:name="android.hardware.camera.front"
+27-->[:react-native-scan-barcode] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\react-native-scan-barcode\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-53
+28        android:required="false" /> <!-- Required to access Google Play Licensing -->
+28-->[:react-native-scan-barcode] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\react-native-scan-barcode\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-33
+29    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+29-->[:rn-fetch-blob] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-73
+29-->[:rn-fetch-blob] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-70
+30    <!--
+31         Required to keep CPU alive while downloading files
+32        (NOT to keep screen awake)
+33    -->
+34    <uses-permission android:name="android.permission.WAKE_LOCK" />
+34-->[:rn-fetch-blob] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-68
+34-->[:rn-fetch-blob] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:22-65
+35    <!--
+36         Required to poll the state of the network connection
+37        and respond to changes
+38    -->
+39    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Require below permissions for reading sms and otp assist feature -->
+39-->[:rn-fetch-blob] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-79
+39-->[:rn-fetch-blob] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:22-76
+40    <!--
+41    <uses-permission android:name="android.permission.READ_SMS" />
+42    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+43    -->
+44    <uses-feature
+44-->[com.payumoney.core:payumoney-sdk:7.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\41b255b985333ce3157e1b71d4b6ed4a\transformed\jetified-payumoney-sdk-7.6.1\AndroidManifest.xml:24:5-26:36
+45        android:name="android.hardware.telephony"
+45-->[com.payumoney.core:payumoney-sdk:7.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\41b255b985333ce3157e1b71d4b6ed4a\transformed\jetified-payumoney-sdk-7.6.1\AndroidManifest.xml:25:9-50
+46        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+46-->[com.payumoney.core:payumoney-sdk:7.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\41b255b985333ce3157e1b71d4b6ed4a\transformed\jetified-payumoney-sdk-7.6.1\AndroidManifest.xml:26:9-33
+47    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+47-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:25:5-82
+47-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:25:22-79
+48    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+48-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:26:5-110
+48-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:26:22-107
+49
+50    <uses-feature
+50-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ks pc\.gradle\caches\transforms-3\603b48d5aac2e9543900b08fa465d8c5\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+51        android:glEsVersion="0x00020000"
+51-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ks pc\.gradle\caches\transforms-3\603b48d5aac2e9543900b08fa465d8c5\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+52        android:required="true" /> <!-- for android -->
+52-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ks pc\.gradle\caches\transforms-3\603b48d5aac2e9543900b08fa465d8c5\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+53    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+54    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+55    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+56    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+57    <!-- for Samsung -->
+58    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+59    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+60    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+60-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+60-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+61    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+61-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+61-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+62    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+62-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+62-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+63    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+63-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+63-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+64    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+64-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+64-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+65    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+65-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+65-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+66    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+66-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+66-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+67    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+67-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+67-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+68    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+68-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+68-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+69    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+69-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+69-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+70    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+70-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+70-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+71    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+71-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+71-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+72    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+72-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+72-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+73    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+73-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+73-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\ks pc\.gradle\caches\transforms-3\bc90dff951a0870af48e960af7d7af63\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+74
+75    <application
+75-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:17:5-59:19
+76        android:name="com.royalserry.MainApplication"
+76-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:18:7-38
+77        android:allowBackup="false"
+77-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:22:7-34
+78        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+78-->[androidx.core:core:1.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\5bfd9b6705c62e47f64e3eaadc7f501d\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
+79        android:debuggable="true"
+80        android:icon="@mipmap/ic_launcher"
+80-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:20:7-41
+81        android:label="@string/app_name"
+81-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:19:7-39
+82        android:requestLegacyExternalStorage="true"
+82-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:27:2-45
+83        android:roundIcon="@mipmap/ic_launcher_round"
+83-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:21:7-52
+84        android:supportsRtl="true"
+84-->[com.payumoney.graphics:asset-download-sdk:0.5.0] C:\Users\ks pc\.gradle\caches\transforms-3\6274487e222585799939f284dffa0555\transformed\jetified-asset-download-sdk-0.5.0\AndroidManifest.xml:16:9-35
+85        android:theme="@style/AppTheme"
+85-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:23:7-38
+86        android:usesCleartextTraffic="true"
+86-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:24:7-42
+87        android:windowSoftInputMode="adjustPan" >
+87-->[com.payumoney.core:payumoney-sdk:7.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\41b255b985333ce3157e1b71d4b6ed4a\transformed\jetified-payumoney-sdk-7.6.1\AndroidManifest.xml:30:9-48
+88        <meta-data
+88-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:29:7-31:66
+89            android:name="com.google.android.geo.API_KEY"
+89-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:30:9-54
+90            android:value="AIzaSyAAt4LSIfqh9KL_w3a9aQffOTrQ5n5neX0" />
+90-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:31:9-64
+91
+92        <activity
+92-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:33:7-43:18
+93            android:name="com.royalserry.MainActivity"
+93-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:34:9-37
+94            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+94-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:36:9-86
+95            android:label="@string/app_name"
+95-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:35:9-41
+96            android:launchMode="singleTask"
+96-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:37:9-40
+97            android:windowSoftInputMode="adjustPan" >
+97-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:38:9-48
+98            <intent-filter>
+98-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:39:9-42:25
+99                <action android:name="android.intent.action.MAIN" />
+99-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:40:13-65
+99-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:40:21-62
+100
+101                <category android:name="android.intent.category.LAUNCHER" />
+101-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:41:13-73
+101-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:41:23-70
+102            </intent-filter>
+103        </activity>
+104        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+104-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:44:7-84
+104-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:44:17-81
+105
+106        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+106-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:45:7-108
+106-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:45:17-105
+107        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
+107-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:46:9-50:20
+107-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:46:19-115
+108            <intent-filter>
+108-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:47:13-49:29
+109                <action android:name="android.intent.action.BOOT_COMPLETED" />
+109-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:48:17-79
+109-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:48:25-76
+110            </intent-filter>
+111        </receiver>
+112
+113        <service
+113-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:52:9-58:19
+114            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+114-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:53:13-107
+115            android:exported="false" >
+115-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:54:13-37
+116            <intent-filter>
+116-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:55:13-57:29
+117                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+117-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:56:17-78
+117-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:56:25-75
+118            </intent-filter>
+119        </service>
+120
+121        <receiver
+121-->[:react-native-device-info] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\react-native-device-info\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-21:20
+122            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
+122-->[:react-native-device-info] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\react-native-device-info\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-70
+123            android:enabled="true"
+123-->[:react-native-device-info] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\react-native-device-info\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-35
+124            android:exported="true" >
+124-->[:react-native-device-info] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\react-native-device-info\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-36
+125            <intent-filter>
+125-->[:react-native-device-info] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\react-native-device-info\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-20:29
+126                <action android:name="com.android.vending.INSTALL_REFERRER" />
+126-->[:react-native-device-info] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\react-native-device-info\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-79
+126-->[:react-native-device-info] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\react-native-device-info\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:25-76
+127            </intent-filter>
+128        </receiver>
+129
+130        <uses-library
+130-->[:react-native-payumoney] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\react-native-payumoney\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-12:40
+131            android:name="org.apache.http.legacy"
+131-->[:react-native-payumoney] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\react-native-payumoney\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-50
+132            android:required="false" />
+132-->[:react-native-payumoney] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\react-native-payumoney\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-37
+133
+134        <provider
+134-->[:rn-fetch-blob] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-44:20
+135            android:name="com.RNFetchBlob.Utils.FileProvider"
+135-->[:rn-fetch-blob] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-62
+136            android:authorities="com.royalserry.provider"
+136-->[:rn-fetch-blob] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-60
+137            android:exported="false"
+137-->[:rn-fetch-blob] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-37
+138            android:grantUriPermissions="true" >
+138-->[:rn-fetch-blob] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-47
+139            <meta-data
+139-->[:rn-fetch-blob] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-43:58
+140                android:name="android.support.FILE_PROVIDER_PATHS"
+140-->[:rn-fetch-blob] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:17-67
+141                android:resource="@xml/provider_paths" />
+141-->[:rn-fetch-blob] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:17-55
+142        </provider>
+143
+144        <activity
+144-->[com.payumoney.sdkui:plug-n-play:1.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\6200c4679d89b0bfb1a803cb7b9a2ab3\transformed\jetified-plug-n-play-1.6.1\AndroidManifest.xml:19:9-24:55
+145            android:name="com.payumoney.sdkui.ui.activities.PayUmoneyActivity"
+145-->[com.payumoney.sdkui:plug-n-play:1.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\6200c4679d89b0bfb1a803cb7b9a2ab3\transformed\jetified-plug-n-play-1.6.1\AndroidManifest.xml:20:13-79
+146            android:label="@string/title_activity_citrus"
+146-->[com.payumoney.sdkui:plug-n-play:1.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\6200c4679d89b0bfb1a803cb7b9a2ab3\transformed\jetified-plug-n-play-1.6.1\AndroidManifest.xml:21:13-58
+147            android:screenOrientation="portrait"
+147-->[com.payumoney.sdkui:plug-n-play:1.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\6200c4679d89b0bfb1a803cb7b9a2ab3\transformed\jetified-plug-n-play-1.6.1\AndroidManifest.xml:22:13-49
+148            android:theme="@style/PayumoneyAppTheme"
+148-->[com.payumoney.sdkui:plug-n-play:1.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\6200c4679d89b0bfb1a803cb7b9a2ab3\transformed\jetified-plug-n-play-1.6.1\AndroidManifest.xml:23:13-53
+149            android:windowSoftInputMode="adjustPan" />
+149-->[com.payumoney.sdkui:plug-n-play:1.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\6200c4679d89b0bfb1a803cb7b9a2ab3\transformed\jetified-plug-n-play-1.6.1\AndroidManifest.xml:24:13-52
+150        <activity
+150-->[com.payumoney.sdkui:plug-n-play:1.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\6200c4679d89b0bfb1a803cb7b9a2ab3\transformed\jetified-plug-n-play-1.6.1\AndroidManifest.xml:25:9-28:56
+151            android:name="com.payumoney.sdkui.ui.activities.ReviewOrderActivity"
+151-->[com.payumoney.sdkui:plug-n-play:1.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\6200c4679d89b0bfb1a803cb7b9a2ab3\transformed\jetified-plug-n-play-1.6.1\AndroidManifest.xml:26:13-81
+152            android:screenOrientation="portrait"
+152-->[com.payumoney.sdkui:plug-n-play:1.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\6200c4679d89b0bfb1a803cb7b9a2ab3\transformed\jetified-plug-n-play-1.6.1\AndroidManifest.xml:27:13-49
+153            android:theme="@style/PayumoneyAppTheme" />
+153-->[com.payumoney.sdkui:plug-n-play:1.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\6200c4679d89b0bfb1a803cb7b9a2ab3\transformed\jetified-plug-n-play-1.6.1\AndroidManifest.xml:28:13-53
+154        <activity
+154-->[com.payumoney.core:payumoney-sdk:7.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\41b255b985333ce3157e1b71d4b6ed4a\transformed\jetified-payumoney-sdk-7.6.1\AndroidManifest.xml:31:9-34:72
+155            android:name="com.payumoney.core.SdkWebViewActivityNew"
+155-->[com.payumoney.core:payumoney-sdk:7.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\41b255b985333ce3157e1b71d4b6ed4a\transformed\jetified-payumoney-sdk-7.6.1\AndroidManifest.xml:32:13-68
+156            android:screenOrientation="portrait"
+156-->[com.payumoney.core:payumoney-sdk:7.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\41b255b985333ce3157e1b71d4b6ed4a\transformed\jetified-payumoney-sdk-7.6.1\AndroidManifest.xml:33:13-49
+157            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+157-->[com.payumoney.core:payumoney-sdk:7.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\41b255b985333ce3157e1b71d4b6ed4a\transformed\jetified-payumoney-sdk-7.6.1\AndroidManifest.xml:34:13-69
+158        <activity
+158-->[com.payumoney.core:payumoney-sdk:7.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\41b255b985333ce3157e1b71d4b6ed4a\transformed\jetified-payumoney-sdk-7.6.1\AndroidManifest.xml:35:9-40:59
+159            android:name="com.payu.custombrowser.CBActivity"
+159-->[com.payumoney.core:payumoney-sdk:7.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\41b255b985333ce3157e1b71d4b6ed4a\transformed\jetified-payumoney-sdk-7.6.1\AndroidManifest.xml:36:13-61
+160            android:screenOrientation="portrait"
+160-->[com.payumoney.core:payumoney-sdk:7.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\41b255b985333ce3157e1b71d4b6ed4a\transformed\jetified-payumoney-sdk-7.6.1\AndroidManifest.xml:37:13-49
+161            android:theme="@style/Theme.AppCompat"
+161-->[com.payumoney.core:payumoney-sdk:7.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\41b255b985333ce3157e1b71d4b6ed4a\transformed\jetified-payumoney-sdk-7.6.1\AndroidManifest.xml:38:13-51
+162            android:windowSoftInputMode="stateAlwaysHidden" />
+162-->[com.payumoney.core:payumoney-sdk:7.6.1] C:\Users\ks pc\.gradle\caches\transforms-3\41b255b985333ce3157e1b71d4b6ed4a\transformed\jetified-payumoney-sdk-7.6.1\AndroidManifest.xml:39:13-60
+163
+164        <service android:name="com.payu.custombrowser.services.SnoozeService" />
+164-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:23:9-81
+164-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:23:18-78
+165
+166        <activity android:name="com.payu.custombrowser.PreLollipopPaymentsActivity" >
+166-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:25:9-42:20
+166-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:25:19-84
+167            <intent-filter>
+167-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:26:13-33:29
+168                <data android:scheme="com.royalserry.success" />
+168-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:27:17-67
+168-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:27:23-64
+169
+170                <action android:name="android.intent.action.VIEW" />
+170-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:29:17-69
+170-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:29:25-66
+171
+172                <category android:name="android.intent.category.DEFAULT" />
+172-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:31:17-76
+172-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:31:27-73
+173                <category android:name="android.intent.category.BROWSABLE" />
+173-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:32:17-78
+173-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:32:27-75
+174            </intent-filter>
+175            <intent-filter>
+175-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:34:13-41:29
+176                <data android:scheme="com.royalserry.failure" />
+176-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:27:17-67
+176-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:27:23-64
+177
+178                <action android:name="android.intent.action.VIEW" />
+178-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:29:17-69
+178-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:29:25-66
+179
+180                <category android:name="android.intent.category.DEFAULT" />
+180-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:31:17-76
+180-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:31:27-73
+181                <category android:name="android.intent.category.BROWSABLE" />
+181-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:32:17-78
+181-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:32:27-75
+182            </intent-filter>
+183        </activity>
+184        <activity android:name="com.payu.custombrowser.PrePaymentsActivity" />
+184-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:43:9-79
+184-->[com.payu.custombrowser:payu-custom-browser:7.6.2] C:\Users\ks pc\.gradle\caches\transforms-3\6d1de9005958caf11dedddd660262808\transformed\jetified-payu-custom-browser-7.6.2\AndroidManifest.xml:43:19-76
+185        <activity
+185-->[com.payu.upisdk:upisdk:1.3.0] C:\Users\ks pc\.gradle\caches\transforms-3\b3dc74d47e3a3084c90ede5549fc42da\transformed\jetified-upisdk-1.3.0\AndroidManifest.xml:14:9-17:63
+186            android:name="com.payu.upisdk.upiintent.PaymentResponseUpiSdkActivity"
+186-->[com.payu.upisdk:upisdk:1.3.0] C:\Users\ks pc\.gradle\caches\transforms-3\b3dc74d47e3a3084c90ede5549fc42da\transformed\jetified-upisdk-1.3.0\AndroidManifest.xml:15:13-83
+187            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"
+187-->[com.payu.upisdk:upisdk:1.3.0] C:\Users\ks pc\.gradle\caches\transforms-3\b3dc74d47e3a3084c90ede5549fc42da\transformed\jetified-upisdk-1.3.0\AndroidManifest.xml:16:13-75
+188            android:windowSoftInputMode="stateAlwaysHidden" />
+188-->[com.payu.upisdk:upisdk:1.3.0] C:\Users\ks pc\.gradle\caches\transforms-3\b3dc74d47e3a3084c90ede5549fc42da\transformed\jetified-upisdk-1.3.0\AndroidManifest.xml:17:13-60
+189
+190        <meta-data
+190-->[com.github.bumptech.glide:okhttp3-integration:4.9.0] C:\Users\ks pc\.gradle\caches\transforms-3\a182899e4de28b892e3dc228232558ad\transformed\jetified-okhttp3-integration-4.9.0\AndroidManifest.xml:11:9-13:43
+191            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+191-->[com.github.bumptech.glide:okhttp3-integration:4.9.0] C:\Users\ks pc\.gradle\caches\transforms-3\a182899e4de28b892e3dc228232558ad\transformed\jetified-okhttp3-integration-4.9.0\AndroidManifest.xml:12:13-84
+192            android:value="GlideModule" />
+192-->[com.github.bumptech.glide:okhttp3-integration:4.9.0] C:\Users\ks pc\.gradle\caches\transforms-3\a182899e4de28b892e3dc228232558ad\transformed\jetified-okhttp3-integration-4.9.0\AndroidManifest.xml:13:13-40
+193
+194        <receiver
+194-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:28:9-35:20
+195            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+195-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:29:13-78
+196            android:exported="true"
+196-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:30:13-36
+197            android:permission="com.google.android.c2dm.permission.SEND" >
+197-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:31:13-73
+198            <intent-filter>
+198-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:32:13-34:29
+199                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+199-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:33:17-81
+199-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:33:25-78
+200            </intent-filter>
+201        </receiver>
+202        <!--
+203             FirebaseMessagingService performs security checks at runtime,
+204             but set to not exported to explicitly avoid allowing another app to call it.
+205        -->
+206        <service
+206-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:41:9-48:19
+207            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+207-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:42:13-82
+208            android:directBootAware="true"
+208-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:43:13-43
+209            android:exported="false" >
+209-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:44:13-37
+210            <intent-filter android:priority="-500" >
+210-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:55:13-57:29
+211                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+211-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:56:17-78
+211-->F:\Ranajoy\royalserryapp\RoyalSerry\android\app\src\main\AndroidManifest.xml:56:25-75
+212            </intent-filter>
+213        </service>
+214        <service
+214-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:49:9-55:19
+215            android:name="com.google.firebase.components.ComponentDiscoveryService"
+215-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:50:13-84
+216            android:directBootAware="true"
+216-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ks pc\.gradle\caches\transforms-3\0cf3304947e4b05e57112b1657c3810a\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+217            android:exported="false" >
+217-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:51:13-37
+218            <meta-data
+218-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:52:13-54:85
+219                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+219-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:53:17-119
+220                android:value="com.google.firebase.components.ComponentRegistrar" />
+220-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\cd6bc51e569e585b433eb56ad4406a3e\transformed\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:54:17-82
+221            <meta-data
+221-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\ks pc\.gradle\caches\transforms-3\30b3b4a921ca2a4ff02fc45edfb8b181\transformed\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:28:13-30:85
+222                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+222-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\ks pc\.gradle\caches\transforms-3\30b3b4a921ca2a4ff02fc45edfb8b181\transformed\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:29:17-115
+223                android:value="com.google.firebase.components.ComponentRegistrar" />
+223-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\ks pc\.gradle\caches\transforms-3\30b3b4a921ca2a4ff02fc45edfb8b181\transformed\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:30:17-82
+224            <meta-data
+224-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\81b9c2fcfc1c2d2020c0b3b3b65d8161\transformed\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+225                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+225-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\81b9c2fcfc1c2d2020c0b3b3b65d8161\transformed\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+226                android:value="com.google.firebase.components.ComponentRegistrar" />
+226-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\81b9c2fcfc1c2d2020c0b3b3b65d8161\transformed\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+227            <meta-data
+227-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\62a3b0bb92c20fa750f5b18581228797\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+228                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+228-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\62a3b0bb92c20fa750f5b18581228797\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+229                android:value="com.google.firebase.components.ComponentRegistrar" />
+229-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\ks pc\.gradle\caches\transforms-3\62a3b0bb92c20fa750f5b18581228797\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+230            <meta-data
+230-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\ks pc\.gradle\caches\transforms-3\36ccd67be49ae2f5917eafcf5201f900\transformed\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+231                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+231-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\ks pc\.gradle\caches\transforms-3\36ccd67be49ae2f5917eafcf5201f900\transformed\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+232                android:value="com.google.firebase.components.ComponentRegistrar" />
+232-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\ks pc\.gradle\caches\transforms-3\36ccd67be49ae2f5917eafcf5201f900\transformed\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+233            <!--
+234                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+235                clients to use it as well, by defining this registrar in their own core/common library.
+236            -->
+237            <meta-data
+237-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ks pc\.gradle\caches\transforms-3\0cf3304947e4b05e57112b1657c3810a\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+238                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+238-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ks pc\.gradle\caches\transforms-3\0cf3304947e4b05e57112b1657c3810a\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+239                android:value="com.google.firebase.components.ComponentRegistrar" />
+239-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ks pc\.gradle\caches\transforms-3\0cf3304947e4b05e57112b1657c3810a\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+240        </service>
+241        <service
+241-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ks pc\.gradle\caches\transforms-3\50ac78adf7ebcc8c2a1543f4e3ec75aa\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+242            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+242-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ks pc\.gradle\caches\transforms-3\50ac78adf7ebcc8c2a1543f4e3ec75aa\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+243            android:exported="false" >
+243-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ks pc\.gradle\caches\transforms-3\50ac78adf7ebcc8c2a1543f4e3ec75aa\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+244            <meta-data
+244-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ks pc\.gradle\caches\transforms-3\50ac78adf7ebcc8c2a1543f4e3ec75aa\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+245                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+245-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ks pc\.gradle\caches\transforms-3\50ac78adf7ebcc8c2a1543f4e3ec75aa\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+246                android:value="cct" />
+246-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ks pc\.gradle\caches\transforms-3\50ac78adf7ebcc8c2a1543f4e3ec75aa\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+247        </service>
+248        <service
+248-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\ks pc\.gradle\caches\transforms-3\830bd371bb67d21ace0b96c50b626b57\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+249            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+249-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\ks pc\.gradle\caches\transforms-3\830bd371bb67d21ace0b96c50b626b57\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+250            android:exported="false"
+250-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\ks pc\.gradle\caches\transforms-3\830bd371bb67d21ace0b96c50b626b57\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+251            android:permission="android.permission.BIND_JOB_SERVICE" >
+251-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\ks pc\.gradle\caches\transforms-3\830bd371bb67d21ace0b96c50b626b57\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+252        </service>
+253
+254        <receiver
+254-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\ks pc\.gradle\caches\transforms-3\830bd371bb67d21ace0b96c50b626b57\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+255            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+255-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\ks pc\.gradle\caches\transforms-3\830bd371bb67d21ace0b96c50b626b57\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+256            android:exported="false" />
+256-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\ks pc\.gradle\caches\transforms-3\830bd371bb67d21ace0b96c50b626b57\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+257        <receiver
+257-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+258            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+258-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
+259            android:enabled="true"
+259-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+260            android:exported="false" >
+260-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+261        </receiver>
+262        <receiver
+262-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+263            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+263-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+264            android:enabled="true"
+264-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+265            android:exported="true"
+265-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+266            android:permission="android.permission.INSTALL_PACKAGES" >
+266-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+267            <intent-filter>
+267-->[:react-native-device-info] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\react-native-device-info\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-20:29
+268                <action android:name="com.android.vending.INSTALL_REFERRER" />
+268-->[:react-native-device-info] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\react-native-device-info\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-79
+268-->[:react-native-device-info] F:\Ranajoy\royalserryapp\RoyalSerry\node_modules\react-native-device-info\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:25-76
+269            </intent-filter>
+270        </receiver>
+271
+272        <service
+272-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+273            android:name="com.google.android.gms.measurement.AppMeasurementService"
+273-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+274            android:enabled="true"
+274-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+275            android:exported="false" />
+275-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+276        <service
+276-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+277            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+277-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+278            android:enabled="true"
+278-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+279            android:exported="false"
+279-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+280            android:permission="android.permission.BIND_JOB_SERVICE" />
+280-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\ks pc\.gradle\caches\transforms-3\aaa41aac1f0a05093ad77d923c1b9ef0\transformed\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+281
+282        <activity
+282-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ks pc\.gradle\caches\transforms-3\c91f06dd9ce03b246f93435875111359\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+283            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+283-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ks pc\.gradle\caches\transforms-3\c91f06dd9ce03b246f93435875111359\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+284            android:exported="false"
+284-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ks pc\.gradle\caches\transforms-3\c91f06dd9ce03b246f93435875111359\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+285            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+285-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ks pc\.gradle\caches\transforms-3\c91f06dd9ce03b246f93435875111359\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+286
+287        <provider
+287-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ks pc\.gradle\caches\transforms-3\0cf3304947e4b05e57112b1657c3810a\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+288            android:name="com.google.firebase.provider.FirebaseInitProvider"
+288-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ks pc\.gradle\caches\transforms-3\0cf3304947e4b05e57112b1657c3810a\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+289            android:authorities="com.royalserry.firebaseinitprovider"
+289-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ks pc\.gradle\caches\transforms-3\0cf3304947e4b05e57112b1657c3810a\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+290            android:directBootAware="true"
+290-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ks pc\.gradle\caches\transforms-3\0cf3304947e4b05e57112b1657c3810a\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+291            android:exported="false"
+291-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ks pc\.gradle\caches\transforms-3\0cf3304947e4b05e57112b1657c3810a\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+292            android:initOrder="100" />
+292-->[com.google.firebase:firebase-common:19.5.0] C:\Users\ks pc\.gradle\caches\transforms-3\0cf3304947e4b05e57112b1657c3810a\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+293
+294        <meta-data
+294-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ks pc\.gradle\caches\transforms-3\615ccf64e5a4d620109e947be57a6ea0\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+295            android:name="com.google.android.gms.version"
+295-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ks pc\.gradle\caches\transforms-3\615ccf64e5a4d620109e947be57a6ea0\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+296            android:value="@integer/google_play_services_version" />
+296-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ks pc\.gradle\caches\transforms-3\615ccf64e5a4d620109e947be57a6ea0\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+297    </application>
+298
+299</manifest>

@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\Ranajoy\\royalserryapp\\RoyalSerry\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ks pc\\.gradle\\caches\\transforms-3\\ae8c3c7f476c64ba3f2f8fbe95811933\\transformed\\appcompat-1.1.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "526",
+                        "endLines": "15",
+                        "endColumns": "13",
+                        "endOffsets": "798"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ks pc\\.gradle\\caches\\transforms-3\\92a58067fe9484aa13c7d83cae554eb0\\transformed\\jetified-plug-n-play-1.6.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,163,211,266,321,368",
+                        "endColumns": "57,49,47,54,54,46,60",
+                        "endOffsets": "108,158,206,261,316,363,424"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ks pc\\.gradle\\caches\\transforms-3\\8d9d3cfcb43ab228c99620c2084849e5\\transformed\\jetified-payumoney-sdk-7.6.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endColumns": "58,37",
+                        "endOffsets": "109,147"
+                    },
+                    "to": {
+                        "startLines": "9,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "429,488",
+                        "endColumns": "58,37",
+                        "endOffsets": "483,521"
+                    }
+                }
+            ]
+        }
+    ]
+}

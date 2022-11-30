@@ -1,0 +1,32 @@
+export default interface RoyalSerryUser {
+    user_id: string;
+    firstname: string;
+    lastname: string;
+    email: string;
+    telephone: string;
+    companyname?: any;
+    companydetails?: any;
+    website: string;
+    password: string;
+    address: string;
+    address2: string;
+    country: string;
+    state: string;
+    city: string;
+    zip: string;
+    latitude: string;
+    longitude: string;
+    status: string;
+    user_type: string;
+    online_status: string;
+    credit_outstanding_amount: string;
+    credit_limit: string;
+    pay_later: string;
+    push_token: string;
+    profile_image: string;
+    is_email_verify: string;
+    add_date: string;
+    lastlogged: string;
+    role: string;
+    branch_id: string;
+}

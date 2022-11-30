@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\Ranajoy\\royalserryapp\\RoyalSerry\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ks pc\\.gradle\\caches\\transforms-3\\92a58067fe9484aa13c7d83cae554eb0\\transformed\\jetified-plug-n-play-1.6.1\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,44",
+                        "endOffsets": "108,153"
+                    }
+                }
+            ]
+        }
+    ]
+}

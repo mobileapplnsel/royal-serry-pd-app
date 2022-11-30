@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>peeppeep.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>2A89E22B86CFAFC04976C743D5A1180A343DAE90</string>
+				<key>dateExpires</key>
+				<string>01/10/21</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2A89E22B86CFAFC04976C743D5A1180A343DAE90</string>
+						<key>dateExpires</key>
+						<string>01/10/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>PayUCustomBrowser.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>7786PWZF67</string>
+						<key>name</key>
+						<string>Sougata Dey (Personal Team)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2A89E22B86CFAFC04976C743D5A1180A343DAE90</string>
+						<key>dateExpires</key>
+						<string>01/10/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>PayUMoneyCoreSDK.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>7786PWZF67</string>
+						<key>name</key>
+						<string>Sougata Dey (Personal Team)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2A89E22B86CFAFC04976C743D5A1180A343DAE90</string>
+						<key>dateExpires</key>
+						<string>01/10/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>PlugNPlay.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>7786PWZF67</string>
+						<key>name</key>
+						<string>Sougata Dey (Personal Team)</string>
+					</dict>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>peeppeep.app</string>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>7786PWZF67</string>
+				<key>name</key>
+				<string>Sougata Dey (Personal Team)</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

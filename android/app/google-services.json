@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "717896799169",
+    "firebase_url": "https://peeppeep-1b0ab.firebaseio.com",
+    "project_id": "peeppeep-1b0ab",
+    "storage_bucket": "peeppeep-1b0ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717896799169:android:858fcb8b2e8fa513319540",
+        "android_client_info": {
+          "package_name": "com.royalserry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717896799169-c50ir8re7omnre5igo7gias8un31rihc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.royalserry",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "717896799169-6eqkivfqp95n06fuo1l554s26tfsiba7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5I6X7005zWpboxPSsaMdl0QQQ_lL3tOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717896799169-6eqkivfqp95n06fuo1l554s26tfsiba7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,34 @@
+export  default interface CustomerDetails {
+    add_date: string;
+    address: string;
+    address2: string;
+    city: string;
+    city_name: string;
+    companydetails?: any;
+    companyname: string;
+    country: string;
+    country_name: string;
+    credit_limit: string;
+    credit_outstanding_amount: string;
+    email: string;
+    firstname: string;
+    is_email_verify: string;
+    lastlogged: string;
+    lastname: string;
+    latitude: string;
+    longitude: string;
+    online_status: string;
+    password: string;
+    pay_later: string;
+    profile_image: string;
+    push_token: string;
+    role?: any;
+    state: string;
+    state_name: string;
+    status: string;
+    telephone: string;
+    user_id: string;
+    user_type: string;
+    website: string;
+    zip: string;
+}
