@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Ranajoy\\royalserryapp\\RoyalSerry\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v22\\values-large-v22.xml",
+            "outputFile": "/Users/lnselapp/royal-serry-pd-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v22/values-large-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ks pc\\.gradle\\caches\\transforms-3\\137e3c92e9447643fea8ed118fc2283c\\transformed\\jetified-payu-custom-browser-7.6.2\\res\\values-large-v22\\values-large-v22.xml",
+                    "source": "/Users/lnselapp/.gradle/caches/transforms-3/b4df0203e22acef9e75dc5edc6e4b96c/transformed/jetified-payu-custom-browser-7.6.2/res/values-large-v22/values-large-v22.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

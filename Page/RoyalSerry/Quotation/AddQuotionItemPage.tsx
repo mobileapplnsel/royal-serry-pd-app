@@ -328,7 +328,8 @@ this.LoadRateFactor();
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/item_cat_list_by_shipping_cat ',
+     // 'http://staging-rss.staqo.com/api/item_cat_list_by_shipping_cat ',
+      'https://irpl.biz/royal-serry-dev/api/item_cat_list_by_shipping_cat',
       formData,
       config,
     )
@@ -359,7 +360,8 @@ console.log('Hii',model.CategoryList);
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/rate_factor',
+      //'http://staging-rss.staqo.com/api/rate_factor',
+      'https://irpl.biz/royal-serry-dev/api/rate_factor',
       formData,
       config,
     )
@@ -397,7 +399,8 @@ console.log('Hii',model.RateFactor);
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/item_subcat_list_by_shipping_cat_itemcat',
+      //'http://staging-rss.staqo.com/api/item_subcat_list_by_shipping_cat_itemcat',
+      'https://irpl.biz/royal-serry-dev/api/item_subcat_list_by_shipping_cat_itemcat',
       formData,
       config,
     )
@@ -435,7 +438,8 @@ console.log('Hii',model.RateFactor);
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/item_list_by_cat_type',
+      //'http://staging-rss.staqo.com/api/item_list_by_cat_type',
+      'https://irpl.biz/royal-serry-dev/api/item_list_by_cat_type',
       formData,
       config,
     )
@@ -498,7 +502,8 @@ console.log(formData)
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/ratelist_by_catsubcat',
+     // 'http://staging-rss.staqo.com/api/ratelist_by_catsubcat',
+     'https://irpl.biz/royal-serry-dev/api/ratelist_by_catsubcat',
       formData,
       config,
     )
@@ -1206,7 +1211,8 @@ model.type= '';
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/creatQuote',
+      //'http://staging-rss.staqo.com/api/creatQuote',
+      'https://irpl.biz/royal-serry-dev/api/creatQuote',
       formData,
       config,
     )

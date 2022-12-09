@@ -164,7 +164,9 @@ export default class LoginPage extends BaseComponent<any, LoginViewModel> {
     };
 
     Axios.post(
-      'http://staging-rss.staqo.com/api/pdboy_login',
+      //'http://staging-rss.staqo.com/api/pdboy_login',
+      'https://irpl.biz/royal-serry-dev/api/pdboy_login',
+
       formData,
       config,
     )

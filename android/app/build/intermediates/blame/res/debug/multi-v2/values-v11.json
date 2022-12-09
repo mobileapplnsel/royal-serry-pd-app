@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Ranajoy\\royalserryapp\\RoyalSerry\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "/Users/lnselapp/royal-serry-pd-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ks pc\\.gradle\\caches\\transforms-3\\92a58067fe9484aa13c7d83cae554eb0\\transformed\\jetified-plug-n-play-1.6.1\\res\\values-v11\\values-v11.xml",
+                    "source": "/Users/lnselapp/.gradle/caches/transforms-3/1f82b068b436b43468e3e6ebca96b881/transformed/jetified-plug-n-play-1.6.1/res/values-v11/values-v11.xml",
                     "from": {
                         "startLines": "2,6,11,16,19,29,33,37,38,42,53,69,75,79",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

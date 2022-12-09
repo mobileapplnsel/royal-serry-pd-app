@@ -109,7 +109,11 @@ export default class AllOrderHistoryPage extends BaseComponent<
       }
     }
     this.ShowPageLoader(true);
-    Axios.post('http://staging-rss.staqo.com/api/delivery_history', formData,config)
+    Axios.post(
+     // 'http://staging-rss.staqo.com/api/delivery_history', 
+     'https://irpl.biz/royal-serry-dev/api/delivery_history',
+    formData,
+    config)
     .then((res)=>{
       this.ShowPageLoader(false);
       model.PickedOrder=res.data?.deliveryHistoryList as RoyalSerryPickedOrder[];
@@ -143,7 +147,12 @@ export default class AllOrderHistoryPage extends BaseComponent<
         }
       }
       this.ShowPageLoader(true);
-      Axios.post('http://staging-rss.staqo.com/api/pickup_history', formData,config)
+      Axios.post(
+       // 'http://staging-rss.staqo.com/api/pickup_history', 
+       'https://irpl.biz/royal-serry-dev/api/pickup_history', 
+
+        formData,
+        config)
       .then((res)=>{
         this.ShowPageLoader(false);
         model.PickedOrder=res.data?.pickupHistoryList as RoyalSerryPickedOrder[];

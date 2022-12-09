@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Ranajoy\\royalserryapp\\RoyalSerry\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+            "outputFile": "/Users/lnselapp/royal-serry-pd-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ks pc\\.gradle\\caches\\transforms-3\\ae8c3c7f476c64ba3f2f8fbe95811933\\transformed\\appcompat-1.1.0\\res\\values-v18\\values-v18.xml",
+                    "source": "/Users/lnselapp/.gradle/caches/transforms-3/fe491af47665b9601b4b37be08ecf4a3/transformed/appcompat-1.1.0/res/values-v18/values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

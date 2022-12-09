@@ -102,7 +102,8 @@ export default class DutyAllowcationPage extends BaseComponent<
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/duty_allocation',
+      //'http://staging-rss.staqo.com/api/duty_allocation',
+      'https://irpl.biz/royal-serry-dev/api/duty_allocation',
       formData,
       config,
     )

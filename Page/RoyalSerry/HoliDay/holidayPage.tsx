@@ -105,7 +105,11 @@ export default class holidayPage extends BaseComponent<
       }
     }
     this.ShowPageLoader(true);
-    Axios.post('http://staging-rss.staqo.com/api/holidayList', formData,config)
+    Axios.post(
+      //'http://staging-rss.staqo.com/api/holidayList', 
+      'https://irpl.biz/royal-serry-dev/api/holidayList',
+    formData,
+    config)
     .then((res)=>{
       this.ShowPageLoader(false);
       model.holidayList=res.data?.holidayList as Holiday[];

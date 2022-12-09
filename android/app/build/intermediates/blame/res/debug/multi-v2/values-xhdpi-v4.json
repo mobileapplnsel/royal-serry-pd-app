@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Ranajoy\\royalserryapp\\RoyalSerry\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+            "outputFile": "/Users/lnselapp/royal-serry-pd-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xhdpi-v4/values-xhdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ks pc\\.gradle\\caches\\transforms-3\\92a58067fe9484aa13c7d83cae554eb0\\transformed\\jetified-plug-n-play-1.6.1\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,113,163,211,266,321,368",
-                        "endColumns": "57,49,47,54,54,46,60",
-                        "endOffsets": "108,158,206,261,316,363,424"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ks pc\\.gradle\\caches\\transforms-3\\8d9d3cfcb43ab228c99620c2084849e5\\transformed\\jetified-payumoney-sdk-7.6.1\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "source": "/Users/lnselapp/.gradle/caches/transforms-3/8cf4c03513b7a9e6c01aec93f76f3387/transformed/jetified-payumoney-sdk-7.6.1/res/values-xhdpi-v4/values-xhdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -28,6 +18,16 @@
                         "startOffsets": "429,488",
                         "endColumns": "58,37",
                         "endOffsets": "483,521"
+                    }
+                },
+                {
+                    "source": "/Users/lnselapp/.gradle/caches/transforms-3/1f82b068b436b43468e3e6ebca96b881/transformed/jetified-plug-n-play-1.6.1/res/values-xhdpi-v4/values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,163,211,266,321,368",
+                        "endColumns": "57,49,47,54,54,46,60",
+                        "endOffsets": "108,158,206,261,316,363,424"
                     }
                 }
             ]

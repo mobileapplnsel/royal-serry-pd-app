@@ -1,6 +1,7 @@
 import Axios, { AxiosError, AxiosResponse } from 'axios'
 export default class BaseApi{
-    public static BaseURL:string = "http://staging-rss.staqo.com/"; 
+    public static BaseURL:string = "https://irpl.biz/royal-serry-dev/"; 
+    //public static BaseURL:string = "http://staging-rss.staqo.com/"; 
    // public static BaseURL:string =  "https://api.regtfw.in/public/api/";
 
     protected static BasePostRequest(url:string,Model:any,callback:any){

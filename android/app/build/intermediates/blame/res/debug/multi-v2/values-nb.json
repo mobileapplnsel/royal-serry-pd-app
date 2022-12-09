@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Ranajoy\\royalserryapp\\RoyalSerry\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nb\\values-nb.xml",
+            "outputFile": "/Users/lnselapp/royal-serry-pd-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ks pc\\.gradle\\caches\\transforms-3\\615ccf64e5a4d620109e947be57a6ea0\\transformed\\jetified-play-services-basement-17.0.0\\res\\values-nb\\values.xml",
+                    "source": "/Users/lnselapp/.gradle/caches/transforms-3/95835c5937a99bc450a446188e69e5a7/transformed/jetified-play-services-basement-17.0.0/res/values-nb/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ks pc\\.gradle\\caches\\transforms-3\\c91f06dd9ce03b246f93435875111359\\transformed\\jetified-play-services-base-17.0.0\\res\\values-nb\\values.xml",
+                    "source": "/Users/lnselapp/.gradle/caches/transforms-3/a75083f11c0405822fbef357e1a5f409/transformed/jetified-play-services-base-17.0.0/res/values-nb/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ks pc\\.gradle\\caches\\transforms-3\\ae8c3c7f476c64ba3f2f8fbe95811933\\transformed\\appcompat-1.1.0\\res\\values-nb\\values-nb.xml",
+                    "source": "/Users/lnselapp/.gradle/caches/transforms-3/fe491af47665b9601b4b37be08ecf4a3/transformed/appcompat-1.1.0/res/values-nb/values-nb.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ks pc\\.gradle\\caches\\transforms-3\\cd6bc51e569e585b433eb56ad4406a3e\\transformed\\jetified-firebase-messaging-21.1.0\\res\\values-nb\\values.xml",
+                    "source": "/Users/lnselapp/.gradle/caches/transforms-3/2092320f6f47fcf0d160d66cc9d41e40/transformed/jetified-firebase-messaging-21.1.0/res/values-nb/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -72,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ks pc\\.gradle\\caches\\transforms-3\\5bfd9b6705c62e47f64e3eaadc7f501d\\transformed\\core-1.1.0\\res\\values-nb\\values-nb.xml",
+                    "source": "/Users/lnselapp/.gradle/caches/transforms-3/e7aa15d6e52d5b3dbc1260393de3d38e/transformed/core-1.1.0/res/values-nb/values-nb.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

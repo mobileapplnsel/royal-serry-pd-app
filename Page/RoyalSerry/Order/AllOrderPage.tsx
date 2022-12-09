@@ -99,7 +99,8 @@ export default class AllOrderPage extends BaseComponent<
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/pdboyallorderlist',
+     // 'http://staging-rss.staqo.com/api/pdboyallorderlist',
+     'https://irpl.biz/royal-serry-dev/api/pdboyallorderlist',
       formData,
       config,
     )
@@ -135,7 +136,8 @@ export default class AllOrderPage extends BaseComponent<
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/pickupOrderList',
+     // 'http://staging-rss.staqo.com/api/pickupOrderList',
+     'https://irpl.biz/royal-serry-dev/api/pickupOrderList',
       formData,
       config,
     )
@@ -170,7 +172,8 @@ export default class AllOrderPage extends BaseComponent<
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/deliveryOrderList',
+      //'http://staging-rss.staqo.com/api/deliveryOrderList',
+      'https://irpl.biz/royal-serry-dev/api/deliveryOrderList',
       formData,
       config,
     )
@@ -221,7 +224,8 @@ export default class AllOrderPage extends BaseComponent<
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/pdboyallorderlist',
+     // 'http://staging-rss.staqo.com/api/pdboyallorderlist',
+     'https://irpl.biz/royal-serry-dev/api/pdboyallorderlist',
       formData,
       config,
     )

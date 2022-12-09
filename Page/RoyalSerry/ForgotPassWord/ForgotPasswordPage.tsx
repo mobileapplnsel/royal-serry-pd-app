@@ -66,7 +66,8 @@ export default class ForgotPasswordPage extends BaseComponent<
     };
 
     Axios.post(
-      'http://staging-rss.staqo.com/api/forget_password',
+      //'http://staging-rss.staqo.com/api/forget_password',
+      'https://irpl.biz/royal-serry-dev/api/forget_password',
       formData,
       config,
     )

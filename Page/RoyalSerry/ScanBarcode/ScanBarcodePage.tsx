@@ -87,7 +87,8 @@ export default class ScanBarcodePage extends BaseComponent<
     };
 
     Axios.post(
-      'http://staging-rss.staqo.com/api/orderItemBarcodeScan',
+      //'http://staging-rss.staqo.com/api/orderItemBarcodeScan',
+      'https://irpl.biz/royal-serry-dev/api/orderItemBarcodeScan',
       formData,
       config,
     )

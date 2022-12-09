@@ -99,7 +99,8 @@ export default class AllRequestQuationPage extends BaseComponent<
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/pdboyRequsetquoteList',
+      //'http://staging-rss.staqo.com/api/pdboyRequsetquoteList',
+      'https://irpl.biz/royal-serry-dev/api/pdboyRequsetquoteList',
       formData,
       config,
     )
@@ -226,7 +227,8 @@ export default class AllRequestQuationPage extends BaseComponent<
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/requestQuoteCompleted',
+      //'http://staging-rss.staqo.com/api/requestQuoteCompleted',
+      'https://irpl.biz/royal-serry-dev/api/requestQuoteCompleted',
       formData,
       config,
     )
@@ -263,7 +265,8 @@ export default class AllRequestQuationPage extends BaseComponent<
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/pdboyRequsetquoteList',
+      //'http://staging-rss.staqo.com/api/pdboyRequsetquoteList',
+      'https://irpl.biz/royal-serry-dev/api/pdboyRequsetquoteList',
       formData,
       config,
     )

@@ -158,7 +158,8 @@ this.LoadAddressTypeList();
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/viewQuoteDetails',
+      //'http://staging-rss.staqo.com/api/viewQuoteDetails',
+      'https://irpl.biz/royal-serry-dev/api/viewQuoteDetails',
       formData,
       config,
     )
@@ -214,7 +215,8 @@ console.log(model.location_state_from)
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/item_cat_list_by_shipping_cat ',
+      //'http://staging-rss.staqo.com/api/item_cat_list_by_shipping_cat ',
+      'https://irpl.biz/royal-serry-dev/api/item_cat_list_by_shipping_cat',
       formData,
       config,
     )
@@ -255,7 +257,8 @@ console.log(model.location_state_from)
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/item_subcat_list_by_shipping_cat_itemcat',
+      //'http://staging-rss.staqo.com/api/item_subcat_list_by_shipping_cat_itemcat',
+      'https://irpl.biz/royal-serry-dev/api/item_subcat_list_by_shipping_cat_itemcat',
       formData,
       config,
     )
@@ -297,7 +300,8 @@ console.log(model.location_state_from)
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/item_list_by_cat_type',
+      //'http://staging-rss.staqo.com/api/item_list_by_cat_type',
+      'https://irpl.biz/royal-serry-dev/api/item_list_by_cat_type',
       formData,
       config,
     )
@@ -520,7 +524,8 @@ console.log(formData);
     };
     this.ShowPageLoader(true);
     Axios.post(
-      'http://staging-rss.staqo.com/api/AddItemToQuote',
+      //'http://staging-rss.staqo.com/api/AddItemToQuote',
+      'https://irpl.biz/royal-serry-dev/api/AddItemToQuote',
       formData,
       config,
     )
